@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command uv -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command pip -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command python -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
