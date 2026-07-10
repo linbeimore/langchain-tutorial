@@ -1,0 +1,10 @@
+LangChain 是一个用于构建大语言模型应用的开源框架。
+
+它提供了以下核心组件：
+1. Models：统一的模型调用接口
+2. Prompts：提示词模板管理
+3. Chains：链式调用，将多个组件串联
+4. Memory：对话记忆管理
+5. Retrieval：文档检索，用于 RAG 场景
+
+LangChain 支持 Python 和 JavaScript 两种语言，广泛应用于 AI Agent、聊天机器人、文档问答等场景。
