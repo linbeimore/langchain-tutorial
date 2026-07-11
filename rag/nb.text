@@ -1,0 +1,7 @@
+curl https://inference.dahl.global/v1/chat/completions \
+  -H "Authorization: Bearer dahl_NqtyXnY242A5UuBxMBHyoywfAhvCGsxkU" \
+  -H "Content-Type: application/json" \
+  -d '{
+      "model": "MiniMaxAI/MiniMax-M2.7",
+      "messages": [{"role": "user", "content": "Hello!"}]
+  }'
